@@ -1,5 +1,7 @@
 // import Counter from "./features/counter/Counter";
 
+import Posts from "./features/Posts/Posts";
+
 
 function App() {
   return (
@@ -8,7 +10,7 @@ function App() {
     // </div>
 
     <main className="App">
-
+      <Posts />
     </main>
   );
 }
