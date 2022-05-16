@@ -1,5 +1,6 @@
 // import Counter from "./features/counter/Counter";
 
+import AddPostForm from "./features/Posts/AddPostForm";
 import Posts from "./features/Posts/Posts";
 
 
@@ -10,6 +11,7 @@ function App() {
     // </div>
 
     <main className="App">
+      <AddPostForm />
       <Posts />
     </main>
   );
