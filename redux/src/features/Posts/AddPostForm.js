@@ -31,6 +31,13 @@ const AddPostForm = () => {
     }
 
 
+    const userOptions = users.map((user) => (
+        <option key={user.id} value={user.id}>
+            {user.name}
+        </option>
+    ))
+
+
 
 
     return (
